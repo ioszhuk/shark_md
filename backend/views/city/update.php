@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 $__params = require __DIR__ .'/__params.php';
 
-$this->title = $model->name_ge;
+$this->title = $model->name_md;
 
 $this->params['breadcrumbs'][] = ['label' => $__params['items'], 'url' => ['city/index']];
 $this->params['breadcrumbs'][] = ['label' => $__params['update'], 'url' => ['city/update', 'id' => $model->id]];

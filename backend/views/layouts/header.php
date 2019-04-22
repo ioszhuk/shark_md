@@ -12,7 +12,7 @@ use yii\helpers\Url;
             <div class="m-stack__item m-brand  m-brand--skin-dark ">
                 <div class="m-stack m-stack--ver m-stack--general">
                     <div class="m-stack__item m-stack__item--middle m-brand__logo">
-                        <a href="/admin" class="m-brand__logo-wrapper"><?= Yii::$app->name?></a>
+                        <a href="/admin" class="m-brand__logo-wrapper"><?= Yii::$app->name ?></a>
                     </div>
                     <div class="m-stack__item m-stack__item--middle m-brand__tools">
 

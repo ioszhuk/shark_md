@@ -10,7 +10,7 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'languages'],
-    'language' => 'pl-PL',
+    'language' => 'ro-mo',
     'controllerNamespace' => 'frontend\controllers',
     'on beforeRequest' => function () {
 	    $pathInfo = Yii::$app->request->pathInfo;
@@ -99,11 +99,11 @@ return [
 	    'languages' => [
 		    'class' => 'common\modules\languages\Module',  // custom
 		    'languages' => [
-			    'ge' => 'ge',
+			    'md' => 'md',
 			    'en' => 'en',
 			    'ru' => 'ru',
 		    ],
-		    'default_language' => 'ge',
+		    'default_language' => 'md',
 		    'show_default' => false,
 	    ],
     ],

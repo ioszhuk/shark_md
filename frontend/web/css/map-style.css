@@ -1,23 +1,23 @@
-.georgia-map {
+.moldavia-map {
     display: block;
     width: 907px;
-    height: 550px;
+    height: 622px;
     margin: auto;
     position: relative;
-    background: url("../image/georgia-map.png") no-repeat center top;
+    background: url("../image/moldova-map.png") no-repeat center top;
 }
 
-.georgia-map .static-map {
+.moldavia-map .static-map {
     display: none;
 }
 
-.georgia-map ul {
+.moldavia-map ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.georgia-map ul li {
+.moldavia-map ul li {
     width: 100px;
     text-align: right;
     padding-right: 4px;
@@ -25,14 +25,14 @@
     z-index: 10000;
 }
 
-.georgia-map ul li span {
+.moldavia-map ul li span {
     color: #333;
     font-size: 16px;
     font-weight: 700;
     text-align: left;
 }
 
-.georgia-map ul li:after {
+.moldavia-map ul li:after {
     content: '';
     position: absolute;
     bottom: -6px;
@@ -43,17 +43,17 @@
     border-radius: 100%;
 }
 
-.georgia-map ul li.tbilisi {
+.moldavia-map ul li.tbilisi {
     top: 356px;
     left: 522px;
 }
 
-.georgia-map ul li.kutaisi {
+.moldavia-map ul li.kutaisi {
     top: 260px;
     left: 246px;
 }
 
-.georgia-map ul li.batumi {
+.moldavia-map ul li.batumi {
     top: 363px;
     left: 144px;
 }
@@ -65,24 +65,24 @@
         text-shadow: none;
     }
 
-    .georgia-map {
+    .moldavia-map {
         background: transparent;
         width: auto;
         height: auto;
     }
 
-    .georgia-map .static-map {
+    .moldavia-map .static-map {
         display: block;
         margin: 0 auto 30px;
     }
 
-    .georgia-map .static-map img {
+    .moldavia-map .static-map img {
         max-width: 100%;
         height: auto;
         background: transparent;
     }
 
-    .georgia-map ul li {
+    .moldavia-map ul li {
         width: auto;
         position: static;
         top: auto !important;
@@ -91,7 +91,7 @@
         text-align: center;
     }
 
-    .georgia-map ul li:after {
+    .moldavia-map ul li:after {
         display: none;
     }
 

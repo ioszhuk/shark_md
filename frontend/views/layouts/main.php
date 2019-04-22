@@ -18,12 +18,12 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= Html::encode($this->title) ?></title>
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="alternate" hreflang="ru-UA" href="https://shark-taxi.ge">
-    <link rel="alternate" hreflang="en-UA" href="https://shark-taxi.ge/en">
-    <link rel="alternate" hreflang="uk-UA" href="https://shark-taxi.ge/ru">
+    <link rel="alternate" hreflang="ro-RO" href="https://shark-taxi.md">
+    <link rel="alternate" hreflang="en-UA" href="https://shark-taxi.md/en">
+    <link rel="alternate" hreflang="uk-UA" href="https://shark-taxi.md/ru">
     <meta property="og:title" content="Shark Taxi ">
     <meta property="og:description" content="Taxi service">
-    <meta property="og:image" content="https://shark-taxi.ge/image/yellow-logo-shark.png">
+    <meta property="og:image" content="https://shark-taxi.md/image/yellow-logo-shark.png">
     <meta name="apple-itunes-app" content="app-id=779587448">
 	<?php $this->head() ?>
 </head>
@@ -42,7 +42,7 @@ AppAsset::register($this);
 
 <?= $this->render('_modal/_error') ?>
 
-<?= $this->render('_analytics/_yandex-metrika') ?>
+<?//= $this->render('_analytics/_yandex-metrika') ?>
 
 <?php $this->endBody() ?>
 </body>

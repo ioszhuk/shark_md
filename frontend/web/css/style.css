@@ -2983,7 +2983,7 @@ form {
         margin-bottom: 0
     }
 
-    .georgia-map {
+    .moldavia-map {
         background: none !important;
         display: block;
         margin: 0 auto 30px ;
@@ -2991,12 +2991,12 @@ form {
         height: auto !important;;
     }
 
-    .georgia-map .static-map {
+    .moldavia-map .static-map {
         display: block !important;
         margin: 0 auto 30px !important;
     }
 
-    .georgia-map .static-map img {
+    .moldavia-map .static-map img {
         max-width: 100%;
         height: auto;
         background: transparent;
@@ -3011,7 +3011,7 @@ form {
         display: none;
     }
 
-    .georgia-map ul li {
+    .moldavia-map ul li {
         width: auto !important;
         position: static !important;;
         top: auto !important;

@@ -19,7 +19,7 @@ class TestimonialSearch extends Testimonial
     {
         return [
             [['id', 'status', 'created_at', 'updated_at'], 'integer'],
-            [['name_ge', 'name_en', 'name_ru', 'avatar', 'body_ge', 'body_en', 'body_ru'], 'safe'],
+            [['name_md', 'name_en', 'name_ru', 'avatar', 'body_md', 'body_en', 'body_ru'], 'safe'],
         ];
     }
 
@@ -65,11 +65,11 @@ class TestimonialSearch extends Testimonial
             'updated_at' => $this->updated_at,
         ]);
 
-        $query->andFilterWhere(['like', 'name_ge', $this->name_ge])
+        $query->andFilterWhere(['like', 'name_md', $this->name_md])
             ->andFilterWhere(['like', 'name_en', $this->name_en])
             ->andFilterWhere(['like', 'name_ru', $this->name_ru])
             ->andFilterWhere(['like', 'avatar', $this->avatar])
-            ->andFilterWhere(['like', 'body_ge', $this->body_ge])
+            ->andFilterWhere(['like', 'body_md', $this->body_md])
             ->andFilterWhere(['like', 'body_en', $this->body_en])
             ->andFilterWhere(['like', 'body_ru', $this->body_ru]);
 

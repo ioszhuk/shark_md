@@ -11,11 +11,11 @@ use Imagine\Image\ManipulatorInterface;
  * This is the model class for table "testimonial".
  *
  * @property int $id
- * @property string $name_ge
+ * @property string $name_md
  * @property string $name_en
  * @property string $name_ru
  * @property string $avatar
- * @property string $body_ge
+ * @property string $body_md
  * @property string $body_en
  * @property string $body_ru
  * @property int $status
@@ -41,10 +41,10 @@ class Testimonial extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name_ge', 'name_en', 'name_ru', 'status'], 'required'],
-            [['body_ge', 'body_en', 'body_ru'], 'string'],
+            [['name_md', 'name_en', 'name_ru', 'status'], 'required'],
+            [['body_md', 'body_en', 'body_ru'], 'string'],
             [['status', 'created_at', 'updated_at'], 'integer'],
-            [['name_ge', 'name_en', 'name_ru'], 'string', 'max' => 255],
+            [['name_md', 'name_en', 'name_ru'], 'string', 'max' => 255],
 
 	        [['avatar'], 'image', 'extensions' => 'jpeg, jpg, png'],
 	        [['avatar'], 'image', 'skipOnEmpty' => false, 'on' => ['default']],

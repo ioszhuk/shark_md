@@ -31,7 +31,7 @@ use backend\widgets\MetronicBoostrapSelect;
 
     <div class="row justify-content-between">
         <div class="col like-box">
-			<?= $form->field($model, 'name_ge')->textInput(['maxlength' => true]) ?>
+			<?= $form->field($model, 'name_md')->textInput(['maxlength' => true]) ?>
 
 			<?= $form->field($model, 'name_en')->textInput(['maxlength' => true]) ?>
 
@@ -42,10 +42,10 @@ use backend\widgets\MetronicBoostrapSelect;
 
     <div class="row justify-content-between">
         <div class="col like-box">
-			<?php if(!empty($model->image_ge)) : ?>
-				<?= Html::img($model->getUploadUrl('image_ge'), ['class' => 'img-thumbnail']); ?>
+			<?php if(!empty($model->image_md)) : ?>
+				<?= Html::img($model->getUploadUrl('image_md'), ['class' => 'img-thumbnail']); ?>
 			<?php endif ?>
-			<?= $form->field($model, 'image_ge')->fileInput() ?>
+			<?= $form->field($model, 'image_md')->fileInput() ?>
         </div>
         <div class="col like-box">
 			<?php if(!empty($model->image_en)) : ?>
@@ -63,7 +63,7 @@ use backend\widgets\MetronicBoostrapSelect;
 
     <div class="row justify-content-between">
         <div class="col like-box">
-			<?= $form->field($model, 'body_ge')->widget(Widget::className(), [
+			<?= $form->field($model, 'body_md')->widget(Widget::className(), [
 				'settings' => [
 					'lang' => 'ru',
 					'minHeight' => 400,

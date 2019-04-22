@@ -43,7 +43,7 @@ use common\models\Feedback;
 				'id' => 'emailform'
 			]) ?>
         </p>
-        <label for="messform"><?= Yii::t('app', 'form_client_advice') ?>:<a href="mailto:support@shark-taxi.ge">support@shark-taxi.ge</a></label>
+        <label for="messform"><?= Yii::t('app', 'form_client_advice') ?>:<a href="mailto:support@shark-taxi.md">support@shark-taxi.md</a></label>
 		<?= Html::activeTextarea($model, 'message', [
 			'required' => 'required',
 			'id' => 'messform',
