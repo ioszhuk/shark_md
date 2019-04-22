@@ -42,7 +42,7 @@ AppAsset::register($this);
 
 <?= $this->render('_modal/_error') ?>
 
-<?//= $this->render('_analytics/_yandex-metrika') ?>
+<?php //= $this->render('_analytics/_yandex-metrika') ?>
 
 <?php $this->endBody() ?>
 </body>
