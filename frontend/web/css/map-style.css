@@ -43,19 +43,10 @@
     border-radius: 100%;
 }
 
-.moldavia-map ul li.tbilisi {
-    top: 356px;
-    left: 522px;
-}
 
-.moldavia-map ul li.kutaisi {
-    top: 260px;
-    left: 246px;
-}
-
-.moldavia-map ul li.batumi {
-    top: 363px;
-    left: 144px;
+.moldavia-map ul li.chisinau {
+    top: 288px;
+    left: 396px;
 }
 
 @media (max-width: 760px) {
