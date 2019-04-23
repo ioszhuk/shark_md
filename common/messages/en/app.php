@@ -6,7 +6,7 @@ return [
 
 	'support_desk' => 'Support service',
 
-	'cities__title' => 'Shark Taxi - Miasta',
+	'cities__title' => 'Shark Taxi - Cities',
 
 	'testimonials__h1' => 'Customer reviews',
 
@@ -17,9 +17,7 @@ return [
 	'home' => 'Home',
 	'cities' => 'Cities',
 
-	'tbilisi' => 'Tbilisi',
-	'kutaisi' => 'Kutaisi',
-	'batumi' => 'Batumi',
+	'chisinau' => 'Kishinev',
 
 	'drivers' => 'For drivers',
 	'clients' => 'For clients',
@@ -44,10 +42,10 @@ return [
 
 
 	'our_features_1_title' => 'Comfortable and <span>fast</span>',
-	'our_features_1_summary' => 'Order a taxi in Warsaw, Krakow or another city is now possible with a few touches - using our mobile application.',
+	'our_features_1_summary' => 'Order a taxi in Kishinev is now possible with a few touches - using our mobile application.',
 
 	'our_features_2_title' => 'Many <span>taxi drivers </span>',
-	'our_features_2_summary' => 'If you want to book a taxi in Warsaw, Krakow or other major cities in Poland - we will always serve you.',
+	'our_features_2_summary' => 'If you want to book a taxi in Kishinev or other major cities in Poland - we will always serve you.',
 
 	'our_features_3_title' => 'Taxi in <span>phone</span>',
 	'our_features_3_summary' => 'With our Android and iOS apps, you can call a taxi for a few seconds, anywhere, anytime.',
