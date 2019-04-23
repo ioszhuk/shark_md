@@ -12,7 +12,6 @@ use yii\web\Response;
  */
 class FeedbackController extends Controller
 {
-
 	public function actionIndex()
 	{
 		if (Yii::$app->request->isAjax) {

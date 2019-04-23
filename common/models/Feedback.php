@@ -26,7 +26,7 @@ class Feedback extends \noIT\feedback\models\Feedback
 	{
 		return mail(
 			Yii::$app->params['adminEmailTo'],
-			'Письмо с сайта Shark Taxi (Georgia)',
+			'Письмо с сайта Shark Taxi (Moldavia)',
 			$this->getEmailBody(),
 			Yii::$app->params['adminEmailFrom']
 		);
