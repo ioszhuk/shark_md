@@ -3,6 +3,7 @@
 /**
  * @var $this \yii\web\View
  * @var string $title
+ * @var string $language
  * @var $model \common\models\City
  */
 
@@ -24,7 +25,7 @@ use yii\helpers\Url;
 							<div class="moldavia-map">
 
                                 <div class="static-map">
-                                    <img src="/image/static-map.png">
+                                    <img src="/image/static-map-<?= $language ?>.png">
                                 </div>
 
 								<ul>
